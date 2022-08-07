@@ -1,0 +1,24 @@
+PODS:
+  - HCVimeoVideoExtractor (0.0.1)
+  - Kingfisher (7.2.0)
+  - SwiftLint (0.46.5)
+
+DEPENDENCIES:
+  - HCVimeoVideoExtractor
+  - Kingfisher
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - HCVimeoVideoExtractor
+    - Kingfisher
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  HCVimeoVideoExtractor: d3c251280f7027ffd324266e1930b3618e0adb46
+  Kingfisher: 3ac0b75b155cabc0e544877d1a4deea29feece92
+  SwiftLint: 2c16e8fa99dac2e440dc0c70ea74d2532048f6cf
+
+PODFILE CHECKSUM: 371da87afba65340cadfdd0813541c35b955936e
+
+COCOAPODS: 1.11.2

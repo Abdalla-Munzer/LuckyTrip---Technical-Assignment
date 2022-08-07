@@ -7,23 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A818FB18603DFA51E500A48F /* Pods_LuckyTrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 302186ABAC90B67712F3186F /* Pods_LuckyTrip.framework */; };
+		EC4AB66D289FFF380044BEBD /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4AB66C289FFF380044BEBD /* UIViewExtensions.swift */; };
+		EC4AB66F28A04E9C0044BEBD /* SavedDestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4AB66E28A04E9C0044BEBD /* SavedDestinationViewController.swift */; };
+		EC4AB67128A0561D0044BEBD /* SavedDestinationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4AB67028A0561D0044BEBD /* SavedDestinationTableViewCell.swift */; };
 		ECAF4915289EBE9000D11685 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAF4914289EBE9000D11685 /* AppDelegate.swift */; };
 		ECAF4917289EBE9000D11685 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAF4916289EBE9000D11685 /* SceneDelegate.swift */; };
-		ECAF4919289EBE9000D11685 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAF4918289EBE9000D11685 /* ViewController.swift */; };
+		ECAF4919289EBE9000D11685 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAF4918289EBE9000D11685 /* HomeViewController.swift */; };
 		ECAF491C289EBE9000D11685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECAF491A289EBE9000D11685 /* Main.storyboard */; };
 		ECAF491E289EBE9400D11685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECAF491D289EBE9400D11685 /* Assets.xcassets */; };
 		ECAF4921289EBE9400D11685 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECAF491F289EBE9400D11685 /* LaunchScreen.storyboard */; };
+		ECAF4963289ECB8900D11685 /* ParametersEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAF4953289ECB8900D11685 /* ParametersEncoding.swift */; };
+		ECAF4964289ECB8900D11685 /* NetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAF4954289ECB8900D11685 /* NetworkResponse.swift */; };
+		ECAF4965289ECB8900D11685 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAF4955289ECB8900D11685 /* HTTPMethod.swift */; };
+		ECAF4966289ECB8900D11685 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAF4956289ECB8900D11685 /* Task.swift */; };
+		ECAF4967289ECB8900D11685 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAF4957289ECB8900D11685 /* NetworkError.swift */; };
+		ECAF4968289ECB8900D11685 /* URLSessionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAF4959289ECB8900D11685 /* URLSessionProvider.swift */; };
+		ECAF4969289ECB8900D11685 /* URLComponentsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAF495B289ECB8900D11685 /* URLComponentsExtension.swift */; };
+		ECAF496A289ECB8900D11685 /* URLRequestExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAF495C289ECB8900D11685 /* URLRequestExtension.swift */; };
+		ECAF496C289ECB8900D11685 /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAF4960289ECB8900D11685 /* ServiceProtocol.swift */; };
+		ECAF496D289ECB8900D11685 /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAF4961289ECB8900D11685 /* URLSessionProtocol.swift */; };
+		ECAF496E289ECB8900D11685 /* ProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAF4962289ECB8900D11685 /* ProviderProtocol.swift */; };
+		ECAF4971289ECCA400D11685 /* DestinationsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAF4970289ECCA400D11685 /* DestinationsService.swift */; };
+		ECAF4974289ED25C00D11685 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAF4973289ED25C00D11685 /* APIError.swift */; };
+		ECAF4976289ED9B200D11685 /* DestinationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAF4975289ED9B200D11685 /* DestinationModel.swift */; };
+		ECAF4979289EDE8000D11685 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAF4978289EDE8000D11685 /* UserDefaultsManager.swift */; };
+		ECAF497C289EDF2A00D11685 /* UIViewControllerExtenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAF497B289EDF2A00D11685 /* UIViewControllerExtenstions.swift */; };
+		ECB75104289FC364002D7A53 /* DestinationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB75103289FC364002D7A53 /* DestinationCollectionViewCell.swift */; };
+		FAF9D6B528A068B40077904E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D6B428A068B40077904E /* BaseViewController.swift */; };
+		FAF9D6B828A0696F0077904E /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D6B728A0696F0077904E /* Reusable.swift */; };
+		FAF9D6BA28A0698E0077904E /* StoryboardBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D6B928A0698E0077904E /* StoryboardBased.swift */; };
+		FAF9D6BC28A06ABF0077904E /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D6BB28A06ABF0077904E /* AppRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		302186ABAC90B67712F3186F /* Pods_LuckyTrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyTrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		778957CD00904C813E392A41 /* Pods-LuckyTrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyTrip.debug.xcconfig"; path = "Target Support Files/Pods-LuckyTrip/Pods-LuckyTrip.debug.xcconfig"; sourceTree = "<group>"; };
+		7C2CC590C91D9D8AE2EECC40 /* Pods-LuckyTrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyTrip.release.xcconfig"; path = "Target Support Files/Pods-LuckyTrip/Pods-LuckyTrip.release.xcconfig"; sourceTree = "<group>"; };
+		EC4AB66C289FFF380044BEBD /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		EC4AB66E28A04E9C0044BEBD /* SavedDestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedDestinationViewController.swift; sourceTree = "<group>"; };
+		EC4AB67028A0561D0044BEBD /* SavedDestinationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedDestinationTableViewCell.swift; sourceTree = "<group>"; };
 		ECAF4911289EBE9000D11685 /* LuckyTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckyTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECAF4914289EBE9000D11685 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECAF4916289EBE9000D11685 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ECAF4918289EBE9000D11685 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECAF4918289EBE9000D11685 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		ECAF491B289EBE9000D11685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECAF491D289EBE9400D11685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECAF4920289EBE9400D11685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECAF4922289EBE9400D11685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECAF4953289ECB8900D11685 /* ParametersEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParametersEncoding.swift; sourceTree = "<group>"; };
+		ECAF4954289ECB8900D11685 /* NetworkResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkResponse.swift; sourceTree = "<group>"; };
+		ECAF4955289ECB8900D11685 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		ECAF4956289ECB8900D11685 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		ECAF4957289ECB8900D11685 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		ECAF4959289ECB8900D11685 /* URLSessionProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionProvider.swift; sourceTree = "<group>"; };
+		ECAF495B289ECB8900D11685 /* URLComponentsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLComponentsExtension.swift; sourceTree = "<group>"; };
+		ECAF495C289ECB8900D11685 /* URLRequestExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLRequestExtension.swift; sourceTree = "<group>"; };
+		ECAF4960289ECB8900D11685 /* ServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceProtocol.swift; sourceTree = "<group>"; };
+		ECAF4961289ECB8900D11685 /* URLSessionProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionProtocol.swift; sourceTree = "<group>"; };
+		ECAF4962289ECB8900D11685 /* ProviderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProviderProtocol.swift; sourceTree = "<group>"; };
+		ECAF4970289ECCA400D11685 /* DestinationsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationsService.swift; sourceTree = "<group>"; };
+		ECAF4973289ED25C00D11685 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		ECAF4975289ED9B200D11685 /* DestinationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationModel.swift; sourceTree = "<group>"; };
+		ECAF4978289EDE8000D11685 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		ECAF497B289EDF2A00D11685 /* UIViewControllerExtenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtenstions.swift; sourceTree = "<group>"; };
+		ECB75103289FC364002D7A53 /* DestinationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationCollectionViewCell.swift; sourceTree = "<group>"; };
+		FAF9D6B428A068B40077904E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		FAF9D6B728A0696F0077904E /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		FAF9D6B928A0698E0077904E /* StoryboardBased.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardBased.swift; sourceTree = "<group>"; };
+		FAF9D6BB28A06ABF0077904E /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +83,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A818FB18603DFA51E500A48F /* Pods_LuckyTrip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80AA52B76B2561F0BE984CE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				778957CD00904C813E392A41 /* Pods-LuckyTrip.debug.xcconfig */,
+				7C2CC590C91D9D8AE2EECC40 /* Pods-LuckyTrip.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE7107CDB7F6C15A88631DFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				302186ABAC90B67712F3186F /* Pods_LuckyTrip.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ECAF4908289EBE9000D11685 = {
 			isa = PBXGroup;
 			children = (
 				ECAF4913289EBE9000D11685 /* LuckyTrip */,
 				ECAF4912289EBE9000D11685 /* Products */,
+				80AA52B76B2561F0BE984CE2 /* Pods */,
+				BE7107CDB7F6C15A88631DFE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +128,135 @@
 		ECAF4913289EBE9000D11685 /* LuckyTrip */ = {
 			isa = PBXGroup;
 			children = (
+				FAF9D6B628A0695B0077904E /* Protocols */,
+				FAF9D6B228A068860077904E /* Scene */,
+				ECAF497A289EDEFE00D11685 /* Extensions */,
+				ECAF4977289EDE4000D11685 /* Managers */,
+				ECAF4972289ED23F00D11685 /* Models */,
+				ECAF4951289ECB8900D11685 /* Networking */,
 				ECAF4914289EBE9000D11685 /* AppDelegate.swift */,
 				ECAF4916289EBE9000D11685 /* SceneDelegate.swift */,
-				ECAF4918289EBE9000D11685 /* ViewController.swift */,
 				ECAF491A289EBE9000D11685 /* Main.storyboard */,
 				ECAF491D289EBE9400D11685 /* Assets.xcassets */,
 				ECAF491F289EBE9400D11685 /* LaunchScreen.storyboard */,
 				ECAF4922289EBE9400D11685 /* Info.plist */,
+				EC4AB66E28A04E9C0044BEBD /* SavedDestinationViewController.swift */,
+				EC4AB67028A0561D0044BEBD /* SavedDestinationTableViewCell.swift */,
 			);
 			path = LuckyTrip;
+			sourceTree = "<group>";
+		};
+		ECAF4951289ECB8900D11685 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				ECAF496F289ECCA400D11685 /* Services */,
+				ECAF4952289ECB8900D11685 /* Enums */,
+				ECAF4958289ECB8900D11685 /* Provider */,
+				ECAF495A289ECB8900D11685 /* Extensions */,
+				ECAF495F289ECB8900D11685 /* Protocols */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		ECAF4952289ECB8900D11685 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				ECAF4953289ECB8900D11685 /* ParametersEncoding.swift */,
+				ECAF4954289ECB8900D11685 /* NetworkResponse.swift */,
+				ECAF4955289ECB8900D11685 /* HTTPMethod.swift */,
+				ECAF4956289ECB8900D11685 /* Task.swift */,
+				ECAF4957289ECB8900D11685 /* NetworkError.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		ECAF4958289ECB8900D11685 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				ECAF4959289ECB8900D11685 /* URLSessionProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		ECAF495A289ECB8900D11685 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ECAF495B289ECB8900D11685 /* URLComponentsExtension.swift */,
+				ECAF495C289ECB8900D11685 /* URLRequestExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ECAF495F289ECB8900D11685 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				ECAF4960289ECB8900D11685 /* ServiceProtocol.swift */,
+				ECAF4961289ECB8900D11685 /* URLSessionProtocol.swift */,
+				ECAF4962289ECB8900D11685 /* ProviderProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		ECAF496F289ECCA400D11685 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				ECAF4970289ECCA400D11685 /* DestinationsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		ECAF4972289ED23F00D11685 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ECAF4973289ED25C00D11685 /* APIError.swift */,
+				ECAF4975289ED9B200D11685 /* DestinationModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ECAF4977289EDE4000D11685 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				ECAF4978289EDE8000D11685 /* UserDefaultsManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		ECAF497A289EDEFE00D11685 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ECAF497B289EDF2A00D11685 /* UIViewControllerExtenstions.swift */,
+				EC4AB66C289FFF380044BEBD /* UIViewExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FAF9D6B228A068860077904E /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				FAF9D6B328A0688E0077904E /* HomeScene */,
+				FAF9D6B428A068B40077904E /* BaseViewController.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		FAF9D6B328A0688E0077904E /* HomeScene */ = {
+			isa = PBXGroup;
+			children = (
+				ECAF4918289EBE9000D11685 /* HomeViewController.swift */,
+				ECB75103289FC364002D7A53 /* DestinationCollectionViewCell.swift */,
+			);
+			path = HomeScene;
+			sourceTree = "<group>";
+		};
+		FAF9D6B628A0695B0077904E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FAF9D6B728A0696F0077904E /* Reusable.swift */,
+				FAF9D6B928A0698E0077904E /* StoryboardBased.swift */,
+				FAF9D6BB28A06ABF0077904E /* AppRouter.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECAF4925289EBE9400D11685 /* Build configuration list for PBXNativeTarget "LuckyTrip" */;
 			buildPhases = (
+				F38B30C57C00DAFD4399024F /* [CP] Check Pods Manifest.lock */,
 				ECAF490D289EBE9000D11685 /* Sources */,
 				ECAF490E289EBE9000D11685 /* Frameworks */,
 				ECAF490F289EBE9000D11685 /* Resources */,
+				881EF4DB6701ADED749BF235 /* [CP] Embed Pods Frameworks */,
+				FAF9D6BD28A06D340077904E /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -133,13 +328,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		881EF4DB6701ADED749BF235 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuckyTrip/Pods-LuckyTrip-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuckyTrip/Pods-LuckyTrip-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LuckyTrip/Pods-LuckyTrip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F38B30C57C00DAFD4399024F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuckyTrip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAF9D6BD28A06D340077904E /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ECAF490D289EBE9000D11685 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECAF4919289EBE9000D11685 /* ViewController.swift in Sources */,
+				ECAF496D289ECB8900D11685 /* URLSessionProtocol.swift in Sources */,
+				EC4AB66D289FFF380044BEBD /* UIViewExtensions.swift in Sources */,
+				ECAF4919289EBE9000D11685 /* HomeViewController.swift in Sources */,
+				ECAF4969289ECB8900D11685 /* URLComponentsExtension.swift in Sources */,
+				FAF9D6B828A0696F0077904E /* Reusable.swift in Sources */,
+				FAF9D6BC28A06ABF0077904E /* AppRouter.swift in Sources */,
+				EC4AB66F28A04E9C0044BEBD /* SavedDestinationViewController.swift in Sources */,
+				FAF9D6B528A068B40077904E /* BaseViewController.swift in Sources */,
+				ECAF4967289ECB8900D11685 /* NetworkError.swift in Sources */,
+				ECAF4971289ECCA400D11685 /* DestinationsService.swift in Sources */,
+				ECAF4964289ECB8900D11685 /* NetworkResponse.swift in Sources */,
+				ECAF4965289ECB8900D11685 /* HTTPMethod.swift in Sources */,
 				ECAF4915289EBE9000D11685 /* AppDelegate.swift in Sources */,
+				ECAF496C289ECB8900D11685 /* ServiceProtocol.swift in Sources */,
+				ECAF4963289ECB8900D11685 /* ParametersEncoding.swift in Sources */,
+				ECAF4968289ECB8900D11685 /* URLSessionProvider.swift in Sources */,
+				ECAF496E289ECB8900D11685 /* ProviderProtocol.swift in Sources */,
+				ECAF497C289EDF2A00D11685 /* UIViewControllerExtenstions.swift in Sources */,
+				ECAF4976289ED9B200D11685 /* DestinationModel.swift in Sources */,
+				ECAF4966289ECB8900D11685 /* Task.swift in Sources */,
+				ECB75104289FC364002D7A53 /* DestinationCollectionViewCell.swift in Sources */,
+				ECAF4979289EDE8000D11685 /* UserDefaultsManager.swift in Sources */,
+				EC4AB67128A0561D0044BEBD /* SavedDestinationTableViewCell.swift in Sources */,
+				FAF9D6BA28A0698E0077904E /* StoryboardBased.swift in Sources */,
+				ECAF4974289ED25C00D11685 /* APIError.swift in Sources */,
+				ECAF496A289ECB8900D11685 /* URLRequestExtension.swift in Sources */,
 				ECAF4917289EBE9000D11685 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +561,7 @@
 		};
 		ECAF4926289EBE9400D11685 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 778957CD00904C813E392A41 /* Pods-LuckyTrip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +589,7 @@
 		};
 		ECAF4927289EBE9400D11685 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C2CC590C91D9D8AE2EECC40 /* Pods-LuckyTrip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
